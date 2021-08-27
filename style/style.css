@@ -1,3 +1,4 @@
+/* CABEÇALHO */
 header {
     background-color: #fd7e14;
     height: 8rem;
@@ -9,6 +10,8 @@ header {
     margin-top: 2rem;
     width: 50px;
 }
+
+/* RODAPE */
 footer {
     margin: 0rem -1rem -1rem -1rem;
     background-color: #343a40;
@@ -16,4 +19,10 @@ footer {
     bottom: 0;
     width: 101%;
     padding: 2rem 5rem
+}
+
+/* CONTAINER */
+.container {    
+    margin-left: 3rem;
+    margin-right: 3rem;
 }

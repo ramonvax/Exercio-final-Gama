@@ -31,6 +31,7 @@ table {
 }
 .campo {
     border-radius: 5rem;
+    width: 35%;
 }
 .button {
     text-align: center;

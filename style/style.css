@@ -36,7 +36,14 @@ table {
 .button {
     text-align: center;
 }
-button{
+button {
+    margin: 1rem 0;
     width: 50%;
     border-radius: 5rem;
+}
+.column_1 {
+    text-align: right;    
+}
+.column_2 {
+    text-align: left;
 }

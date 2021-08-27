@@ -1,3 +1,8 @@
+/* BODY */
+body {
+    background-color: #fff;
+}
+
 /* CABEÇALHO */
 header {
     background-color: #fd7e14;
@@ -14,24 +19,23 @@ header {
 /* RODAPE */
 footer {
     margin: 0rem -1rem -1rem -1rem;
-    background-color: #343a40;
-    position: fixed;
-    bottom: 0;
-    width: 101%;
+    background-color: #343a40;    
     padding: 2rem 5rem
 }
 
 /* CONTAINER */
-.container {    
-    margin-left: 3rem;
-    margin-right: 3rem;    
+.container {
+    background-color:#f8f9fa;;
+    margin: 0 3rem 0 3rem;
+    padding-bottom: 8rem;
 }
-table {
+table {    
     width: 100%;    
 }
 .campo {
     border-radius: 5rem;
-    width: 35%;
+    width: 50%;
+    height: 50%;
 }
 .button {
     text-align: center;
@@ -42,8 +46,13 @@ button {
     border-radius: 5rem;
 }
 .column_1 {
+    padding-right: 1rem;
     text-align: right;    
 }
 .column_2 {
-    text-align: left;
+    padding-left: 1rem;
+    text-align: left;    
+}
+.section {
+    height: 4rem;
 }

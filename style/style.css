@@ -23,6 +23,9 @@ footer {
     background-color: #343a40;    
     padding: 2rem 5rem
 }
+.nome_footer {
+    color: #007bff
+}
 
 /* CONTAINER */
 .container {
@@ -35,7 +38,7 @@ table {
 }
 .campo {
     border-radius: 5rem;
-    width: 50%;
+    width: 60%;
     height: 50%;
 }
 .button {

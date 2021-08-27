@@ -24,5 +24,18 @@ footer {
 /* CONTAINER */
 .container {    
     margin-left: 3rem;
-    margin-right: 3rem;
+    margin-right: 3rem;    
+}
+table {
+    width: 100%;    
+}
+.campo {
+    border-radius: 5rem;
+}
+.button {
+    text-align: center;
+}
+button{
+    width: 50%;
+    border-radius: 5rem;
 }

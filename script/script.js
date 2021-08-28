@@ -1,7 +1,29 @@
-console.log("JavaScript carregado")
+//  ******************  VERIFICAÇÂO CPF *******************************
+
+
+// console.log("JavaScript carregado")
+function isNumber(valorAnalisado) {
+    return !isNaN(parseFloat(valorAnalisado)) && isFinite(valorAnalisado);
+}
+
 function verificaSoma(cpf) {
     if (cpf.length === 11) {
-        return true;
+        if(isNumber(cpf)) {
+            let soma = 0
+            for (var i = 0; i <= 10; i ++) {
+                soma += parseInt(cpf[i])                
+            }            
+            // console.log(soma)            
+            if(soma % 11 === 0) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        else {
+            return false;
+        }
     }
     else {
         return false;
@@ -9,7 +31,7 @@ function verificaSoma(cpf) {
 }
 
 function validate() {
-    console.log("Iniciando validacao")
+    // console.log("Iniciando validacao")
     var cpf = document.getElementById("cpfDigitado").value;
     document.getElementById("CPFValido").style.display = "none"
     document.getElementById("CPFInvalido").style.display = "none"
@@ -20,4 +42,12 @@ function validate() {
     else {
         document.getElementById("CPFInvalido").style.display = "block"
     }
+}
+
+// ********************  FIM DA VERIFICAÇÂO CPF **********************
+
+// ********************  TELA SPAM CADASTRO CONCLUIDO ****************
+
+function finished() {
+    
 }

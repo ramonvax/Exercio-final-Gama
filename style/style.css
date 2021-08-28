@@ -49,6 +49,9 @@ button {
     width: 50%;
     border-radius: 5rem;
 }
+.subtitle {
+    text-align: center;
+}
 .column_1 {
     padding-right: 1rem;
     text-align: right;    
@@ -59,4 +62,18 @@ button {
 }
 .section {
     height: 4rem;
+}
+
+/* JAVASCRIPT */
+
+.column_3{
+    text-align: left;
+}
+.CPFValido {
+    display: none;
+    color: #28a745;
+}
+.CPFInvalido {
+    display: none;
+    color: #dc3545
 }

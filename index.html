@@ -20,6 +20,11 @@
     <div class=container>
         <form>
             <table>
+                <tr class="subtitle">
+                    <td colspan="2" class="button">
+                        <h2>Dados Pessoais</h2>
+                    </td>
+                </tr>
                 <tr class="section">
                     <td class="column_1">
                         <label for="">Nome</label>
@@ -33,9 +38,13 @@
                         <label for="">CPF</label>
                     </td>
                     <td class="column_2">
-                        <input class="campo" type="text" required>
+                        <input class="campo" type="text" oninput="validate()" id="cpfDigitado" required>
                     </td>
-                </tr>
+                    <td class="column_3">
+                        <h3 class="CPFValido">CPF Valido!</h3>
+                        <h3 class="CPFInvalido">CPF Invalido!</h3>
+                    </td>
+                </tr>                
                 <tr class="section">
                     <td class="column_1">
                         <label for="">RG</label>
@@ -154,6 +163,7 @@
     <footer>
         <span class="nome_footer">Itaú</span>
     </footer>
+    <script src="/script/script.js"></script>
 </body>
 
 </html>

@@ -69,11 +69,11 @@ button {
 .column_3{
     text-align: left;
 }
-.CPFValido {
+#CPFValido {
     display: none;
     color: #28a745;
 }
-.CPFInvalido {
+#CPFInvalido {
     display: none;
     color: #dc3545
 }

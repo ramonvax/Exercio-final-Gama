@@ -77,3 +77,19 @@ button {
     display: none;
     color: #dc3545
 }
+
+/* Tela de Spam */
+.cadastroFinalizado {
+    position: fixed;
+    top: 25%;
+    left: 25%;    
+    width: 50%;
+    height: 50%;
+    background-color: #F3F0D7;    
+    opacity: 82%;
+    text-align: center;
+    padding: 2.5rem;
+}
+.logoSpam {
+    width: 100px;
+}

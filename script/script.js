@@ -49,5 +49,6 @@ function validate() {
 // ********************  TELA SPAM CADASTRO CONCLUIDO ****************
 
 function finished() {
-    
+    console.log("spam chamado")
+    document.getElementById("spamFinalizacao").style.display = "block";
 }

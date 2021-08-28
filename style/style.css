@@ -80,6 +80,7 @@ button {
 
 /* Tela de Spam */
 .cadastroFinalizado {
+    display: none;
     position: fixed;
     top: 25%;
     left: 25%;    

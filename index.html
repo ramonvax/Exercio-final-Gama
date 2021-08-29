@@ -24,7 +24,7 @@
                     <h1 class="title">Ficha de Cadastro</h1>
                 </td>
             </tr>
-        </table>        
+        </table>
     </header>
     <div class=container>
         <form>
@@ -41,7 +41,7 @@
                         <label for="">Nome</label>
                     </td>
                     <td colspan="2" class="column_2">
-                        <input class="campo" type="text" required>
+                        <input class="campo" type="text" placeholder="Digite seu nome completo" required>
                     </td>
                 </tr>
                 <!-- Campo Sexo e Nascimento -->
@@ -77,9 +77,14 @@
                         <label for="">CPF</label>
                     </td>
                     <td class="column_2">
-                        <input class="campo" type="text" oninput="validate()" id="cpfDigitado" placeholder="XXX.XXX.XXX-XX" required>
+                        <input class="campo" type="text" oninput="validate()" id="cpfDigitado"
+                            placeholder="XXX.XXX.XXX-XX" required>
                     </td>
-                    <td class="column_5">
+                </tr>
+                <!-- Campo Validação cpf -->
+                <tr>
+                    <td colspan="3"></td>
+                    <td class="column_alert">
                         <h3 id="CPFValido">CPF Valido!</h3>
                         <h3 id="CPFInvalido">CPF Invalido!</h3>
                     </td>
@@ -184,7 +189,7 @@
                     <td class="column_2">
                         <input class="campo" type="text" required>
                     </td>
-                </tr>                
+                </tr>
                 <tr class="section">
                     <td class="column_1">
                         <label for="">E-mail</label>
@@ -207,6 +212,5 @@
     </footer>
     <script src="/script/script.js"></script>
 </body>
-
 
 </html>

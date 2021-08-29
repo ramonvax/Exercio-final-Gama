@@ -54,12 +54,16 @@ table {
     height: 50%;
 }
 .button {
-    text-align: center;
+    text-align: center;    
 }
 button {
     margin: 1rem 0;
     width: 50%;
+    height: 2.5rem;
     border-radius: 5rem;
+    background-color: #5bc1d1;
+    font-size: 1.5rem;
+    color: #343a40;
 }
 .subtitle {
     text-align: center;
@@ -71,6 +75,9 @@ button {
 .column_2 {        
     padding-left: 1rem;
     text-align: left;    
+}
+.column_alert {        
+    text-align: center;
 }
 .section {
     height: 4rem;

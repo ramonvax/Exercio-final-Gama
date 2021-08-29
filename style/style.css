@@ -41,13 +41,15 @@ footer {
     background-color:#FDF6F0;
     margin: 0 5rem 0 5rem;
     padding-bottom: 8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 table {    
     width: 100%;    
 }
 .campo {
     border-radius: 5rem;
-    width: 60%;
+    width: 80%;
     height: 50%;
 }
 .button {
@@ -65,7 +67,7 @@ button {
     padding-right: 1rem;
     text-align: right;    
 }
-.column_2 {
+.column_2 {        
     padding-left: 1rem;
     text-align: left;    
 }

@@ -21,49 +21,30 @@
                     <img class="logo_header" src="/imagens/logo.png">
                 </td>
                 <td>
-                    <h1 class="title">Ficha de Cadastro</h1>  
+                    <h1 class="title">Ficha de Cadastro</h1>
                 </td>
             </tr>
-        </table>
-        <!-- <img class="logo_header" src="/imagens/logo.png"> -->
-        <!-- <h1 class="title">Ficha de Cadastro</h1>   -->
+        </table>        
     </header>
     <div class=container>
         <form>
             <table>
+                <!-- SECAO DADOS PESSSOAIS -->
                 <tr class="subtitle">
-                    <td colspan="2" class="button">
+                    <td colspan="4" class="button">
                         <h2>Dados Pessoais</h2>
                     </td>
                 </tr>
+                <!-- Campo Nome -->
                 <tr class="section">
                     <td class="column_1">
                         <label for="">Nome</label>
                     </td>
-                    <td class="column_2">
+                    <td colspan="2" class="column_2">
                         <input class="campo" type="text" required>
                     </td>
                 </tr>
-                <tr class="section">
-                    <td class="column_1">
-                        <label for="">CPF</label>
-                    </td>
-                    <td class="column_2">
-                        <input class="campo" type="text" oninput="validate()" id="cpfDigitado" required>
-                    </td>
-                    <td class="column_3">
-                        <h3 id="CPFValido">CPF Valido!</h3>
-                        <h3 id="CPFInvalido">CPF Invalido!</h3>
-                    </td>
-                </tr>
-                <tr class="section">
-                    <td class="column_1">
-                        <label for="">RG</label>
-                    </td>
-                    <td class="column_2">
-                        <input class="campo" type="text">
-                    </td>
-                </tr>
+                <!-- Campo Sexo e Nascimento -->
                 <tr class="section">
                     <td class="column_1">
                         <label for="">Sexo</label>
@@ -77,12 +58,39 @@
                             <option>Prefiro não identificar</option>
                         </select>
                     </td>
+                    <td class="column_1">
+                        <label for="">Data Nascimento</label>
+                    </td>
+                    <td class="column_2">
+                        <input class="campo" type="date" required>
+                    </td>
                 </tr>
+                <!-- Campo RG e CPF -->
+                <tr class="section">
+                    <td class="column_1">
+                        <label for="">RG</label>
+                    </td>
+                    <td class="column_2">
+                        <input class="campo" type="text" placeholder="Digite o Numero da sua Identidade">
+                    </td>
+                    <td class="column_1">
+                        <label for="">CPF</label>
+                    </td>
+                    <td class="column_2">
+                        <input class="campo" type="text" oninput="validate()" id="cpfDigitado" placeholder="XXX.XXX.XXX-XX" required>
+                    </td>
+                    <td class="column_5">
+                        <h3 id="CPFValido">CPF Valido!</h3>
+                        <h3 id="CPFInvalido">CPF Invalido!</h3>
+                    </td>
+                </tr>
+                <!-- SECAO ENDEREÇO -->
                 <tr class="subtitle">
-                    <td colspan="2" class="button">
+                    <td colspan="4" class="button">
                         <h2>Endereço</h2>
                     </td>
-                </tr>                
+                </tr>
+                <!-- Campo Endereço e Numero -->
                 <tr class="section">
                     <td class="column_1">
                         <label for="">Endereço</label>
@@ -90,8 +98,6 @@
                     <td class="column_2">
                         <input class="campo" type="text" required>
                     </td>
-                </tr>
-                <tr class="section">
                     <td class="column_1">
                         <Label>Numero</Label>
                     </td>
@@ -99,6 +105,22 @@
                         <input class="campo" type="text" required>
                     </td>
                 </tr>
+                <!-- Campo Bairro e Cep -->
+                <tr class="section">
+                    <td class="column_1">
+                        <Label>Bairro</Label>
+                    </td>
+                    <td class="column_2">
+                        <input class="campo" type="text">
+                    </td>
+                    <td class="column_1">
+                        <Label>CEP</Label>
+                    </td>
+                    <td class="column_2">
+                        <input class="campo" type="text">
+                    </td>
+                </tr>
+                <!-- Campo Cidade e Estado -->
                 <tr class="section">
                     <td class="column_1">
                         <label for="">Cidade</label>
@@ -106,8 +128,6 @@
                     <td class="column_2">
                         <input class="campo" type="text">
                     </td>
-                </tr>
-                <tr class="section">
                     <td class="column_1">
                         <label for="">Estado</label>
                     </td>
@@ -144,19 +164,13 @@
                         </select>
                     </td>
                 </tr>
-                <tr class="section">
-                    <td class="column_1">
-                        <Label>CEP</Label>
-                    </td>
-                    <td class="column_2">
-                        <input class="campo" type="text">
-                    </td>
-                </tr>
+                <!-- SECAO CONTATO -->
                 <tr class="subtitle">
-                    <td colspan="2" class="button">
+                    <td colspan="4" class="button">
                         <h2>Contato</h2>
                     </td>
-                </tr> 
+                </tr>
+                <!-- Campo Telefone -->
                 <tr class="section">
                     <td class="column_1">
                         <label for="">Telefone fixo</label>
@@ -164,15 +178,13 @@
                     <td class="column_2">
                         <input class="campo" type="text">
                     </td>
-                </tr>
-                <tr class="section">
                     <td class="column_1">
                         <label for="">Telefone Celular</label>
                     </td>
                     <td class="column_2">
                         <input class="campo" type="text" required>
                     </td>
-                </tr>
+                </tr>                
                 <tr class="section">
                     <td class="column_1">
                         <label for="">E-mail</label>
@@ -181,8 +193,9 @@
                         <input class="campo" type="email">
                     </td>
                 </tr>
+                <!-- BOTÂO DE ENVIO -->
                 <tr class="section">
-                    <td class="button" colspan="2">
+                    <td class="button" colspan="4">
                         <button type="submit">Enviar</button>
                     </td>
                 </tr>
@@ -191,7 +204,7 @@
     </div>
     <footer>
         <span class="nome_footer">Itaú</span>
-    </footer>    
+    </footer>
     <script src="/script/script.js"></script>
 </body>
 

@@ -40,7 +40,8 @@ footer {
 .container {
     background-color:#FDF6F0;
     margin: 0 5rem 0 5rem;
-    padding-bottom: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: 3rem;

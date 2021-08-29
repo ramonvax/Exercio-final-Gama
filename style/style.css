@@ -2,7 +2,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     /* background-color: #fff; */    
-    background-image: linear-gradient(#fd7e14,#007bff);
+    background-image: linear-gradient(#fd7e14,#003399);
 }
 
 /* CABEÇALHO */
@@ -29,7 +29,7 @@ header {
 footer {
     margin: 0rem -1rem -1rem -1rem;
     /* background-color: #343a40;     */
-    background-color: #007bff;
+    background-color: #003399;
     padding: 2rem 5rem
 }
 .nome_footer {
@@ -62,9 +62,9 @@ button {
     width: 50%;
     height: 2.5rem;
     border-radius: 5rem;
-    background-color: #5bc1d1;
+    background-color: #003399;
     font-size: 1.5rem;
-    color: #343a40;
+    color: #f8f9fa;
 }
 .subtitle {
     text-align: center;

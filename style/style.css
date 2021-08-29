@@ -1,8 +1,11 @@
 /* BODY */
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    /* background-color: #fff; */    
-    background-image: linear-gradient(#fd7e14,#003399);
+}
+.body {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    background-image: linear-gradient(#fd7e14,#003399);    
 }
 
 /* CABEÇALHO */

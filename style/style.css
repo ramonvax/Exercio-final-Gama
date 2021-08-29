@@ -1,36 +1,45 @@
 /* BODY */
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #fff;
+    /* background-color: #fff; */    
+    background-image: linear-gradient(#fd7e14,#007bff);
 }
 
 /* CABEÇALHO */
 header {
     background-color: #fd7e14;
     height: 8rem;
-    margin: -1rem -1rem 0rem -1rem;
+    margin: -1rem -1rem 0rem -1rem;          
 }
-
+.colummLogo {
+    width: 40%;
+    text-align: center;
+}
 .logo_header {
-    margin-left: 8rem;
     margin-top: 2rem;
     width: 50px;
+    height: 50px;    
+}
+.title {    
+    margin-top: 3rem;
+    color: #343a40;
 }
 
 /* RODAPE */
 footer {
     margin: 0rem -1rem -1rem -1rem;
-    background-color: #343a40;    
+    /* background-color: #343a40;     */
+    background-color: #007bff;
     padding: 2rem 5rem
 }
 .nome_footer {
-    color: #007bff
+    color: #f8f9fa;
 }
 
 /* CONTAINER */
 .container {
-    background-color:#f8f9fa;;
-    margin: 0 3rem 0 3rem;
+    background-color:#FDF6F0;
+    margin: 0 5rem 0 5rem;
     padding-bottom: 8rem;
 }
 table {    
@@ -76,4 +85,28 @@ button {
 #CPFInvalido {
     display: none;
     color: #dc3545
+}
+
+test{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
 }

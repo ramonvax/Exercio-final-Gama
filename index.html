@@ -15,7 +15,18 @@
 
 <body>
     <header>
-        <img class="logo_header" src="/imagens/logo.png">
+        <table>
+            <tr>
+                <td class="colummLogo">
+                    <img class="logo_header" src="/imagens/logo.png">
+                </td>
+                <td>
+                    <h1 class="title">Ficha de Cadastro</h1>  
+                </td>
+            </tr>
+        </table>
+        <!-- <img class="logo_header" src="/imagens/logo.png"> -->
+        <!-- <h1 class="title">Ficha de Cadastro</h1>   -->
     </header>
     <div class=container>
         <form>
@@ -67,6 +78,11 @@
                         </select>
                     </td>
                 </tr>
+                <tr class="subtitle">
+                    <td colspan="2" class="button">
+                        <h2>Endereço</h2>
+                    </td>
+                </tr>                
                 <tr class="section">
                     <td class="column_1">
                         <label for="">Endereço</label>
@@ -136,6 +152,11 @@
                         <input class="campo" type="text">
                     </td>
                 </tr>
+                <tr class="subtitle">
+                    <td colspan="2" class="button">
+                        <h2>Contato</h2>
+                    </td>
+                </tr> 
                 <tr class="section">
                     <td class="column_1">
                         <label for="">Telefone fixo</label>
@@ -153,8 +174,16 @@
                     </td>
                 </tr>
                 <tr class="section">
+                    <td class="column_1">
+                        <label for="">E-mail</label>
+                    </td>
+                    <td class="column_2">
+                        <input class="campo" type="email">
+                    </td>
+                </tr>
+                <tr class="section">
                     <td class="button" colspan="2">
-                        <button type="submit" onclick="finished()">Enviar</button>
+                        <button type="submit">Enviar</button>
                     </td>
                 </tr>
             </table>

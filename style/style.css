@@ -15,7 +15,7 @@ header {
     margin: -1rem -1rem 0rem -1rem;          
 }
 .colummLogo {
-    width: 40%;
+    width: 30%;
     text-align: center;
 }
 .logo_header {
@@ -26,6 +26,10 @@ header {
 .title {    
     margin-top: 3rem;
     color: #343a40;
+}
+.colummTitle{
+    width: 40%;
+    text-align: center;
 }
 
 /* RODAPE */
